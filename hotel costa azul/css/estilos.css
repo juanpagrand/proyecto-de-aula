@@ -36,7 +36,7 @@ nav a {
     margin-left: 5px;
 }
 
-section {
+section1 {
     text-align: center;
 
 }
@@ -57,13 +57,17 @@ section {
 
 #inf {
     color: rgb(115, 190, 190);
+    
+    text-align: center;
+
 }
 
 .estadia {
     border-radius: 10px;
-    background-color: rgb(103, 189, 229);
+    background-color: rgb(108, 198, 240);
     height: 35px;
     width: 24%;
+    margin-left: 38%;
 }
 
 .lujo img {
@@ -71,3 +75,84 @@ section {
     margin-left: 10px;
     height: 500px;
 }
+
+/*estadia */
+.roonestadia{
+    margin-top: 2%;
+     background-color:rgb(192, 188, 183);
+     overflow: auto;
+ 
+ }
+ 
+ .roonestadia img{
+        height: 350px;
+        margin: 25px;
+        float: left;
+ }
+ 
+ #inft{
+ margin-top: 2%;
+ margin-left: auto;
+ 
+ }
+ 
+ .ELEGIR{
+     border-radius: 10px;
+     ;
+     height: 40px;
+     margin-top: 10px;
+     width: 70px;
+     background-color: aliceblue;
+     color: rgb(80, 151, 151);
+     border-color: aquamarine;
+ }
+ 
+ 
+ .roonestadia2{
+     margin-top: 2%;
+      background-color:rgb(192, 188, 183);
+      overflow: auto;
+  
+  }
+  
+  .roonestadia2 img{
+         height: 350px;
+         margin: 25px;
+         float: left;
+  }
+
+
+  /*habitacion */
+  .back{
+    display: flex;
+    height: 40px;
+
+  }
+
+  .icon{
+    display: flex;
+    height: 90px;
+    
+  }
+
+.infoprincipal img{
+    height: 450px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 99px;
+}
+
+#titulo{
+    margin-left: 40px;
+}
+
+.fondot{
+    background-color: rgb(160, 184, 176);
+    height: 200px;
+    margin-right: 196px;
+    margin-left: 99px;
+    padding: 15px;
+
+}
+
+
