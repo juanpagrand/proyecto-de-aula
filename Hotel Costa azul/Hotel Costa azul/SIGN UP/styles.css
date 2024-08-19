@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.woff2') format('woff2'),
+       url('fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+img{
+  width:4%;
+}
+
+body {
+  background-color: #21BDEE;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.subTitulo{
+  text-align: center;
+}
+
+.datos {
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: calc(50% - 40px); /* Mueve el contenedor 40px a la izquierda del centro */
+  transform: translateX(-18%); /* Ajuste para que esté centrado inicialmente antes de aplicar el desplazamiento */
+  font-weight: bold;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 40px;/*tamañp de texto*/
+  color: white;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px; /* Aumenta el padding para mejorar el aspecto */
+  border-radius: 10px; /* Hace los bordes redondeados */
+  border: 3px solid #ffffff; /* Aplica un borde sólido de 3px */
+  outline: none; /* Eliminq el contorno predeterminado al hacer clic */
+  width: 300px; /* Alarga el input*/
+  background-color: #21BDEE;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
