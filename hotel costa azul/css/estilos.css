@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    font-weight: 100;
+    background-color: rgb(80, 184, 248);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+
+}
+
+nav a {
+    color: rgb(20, 18, 18);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+section {
+    text-align: center;
+
+}
+
+.prinsipal {
+    margin-left: 10px;
+    align-items: center;
+    height: auto;
+
+}
+
+.prinsipal img {
+    height: 500px;
+
+    margin-top: 50px;
+    width: 99%;
+}
+
+#inf {
+    color: rgb(115, 190, 190);
+}
+
+.estadia {
+    border-radius: 10px;
+    background-color: rgb(103, 189, 229);
+    height: 35px;
+    width: 24%;
+}
+
+.lujo img {
+    width: 99%;
+    margin-left: 10px;
+    height: 500px;
+}
