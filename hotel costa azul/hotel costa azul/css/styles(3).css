@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2'),
+    url('fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    width: 4%;
+}
+
+.logo {
+    width: 5%;
+    margin-left: 90%;
+}
+
+body {
+    background-color: #21BDEE;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.menu {
+    font-size: 150%;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.icons {
+    width: 4%;
+    display: inline-block;
+}
+
+.menu-item {
+    
+    margin-left: calc(50% - 40px);
+    transform: translateX(-75%);
+}
+
+#Cerrar { /*seleccion por id*/
+    color: red;
+}
+
+.material-symbols-outlined {
+    font-size: 36px; /* Tamaño del ícono */
+    color:reds; /* Color del ícono */
+}
